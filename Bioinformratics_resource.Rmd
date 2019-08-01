@@ -1,0 +1,33 @@
+---
+title: "BIoinformatics_resources"
+author: "Senthilkumar Kailasam"
+date: "23/07/2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## GO annotation
+
+https://github.com/hbctraining/DGE_workshop/blob/master/lessons/functional_analysis_other_methods.md
+
+```{r cars}
+summary(cars)
+```
+
+##  DNA microarray 
+
+https://bioconductor.org/packages/devel/workflows/vignettes/maEndToEnd/inst/doc/MA-Workflow.html
+
+https://www.biostars.org/p/266507/
+## MAUNAL and OPTIONS quickies
+
+http://bio-bwa.sourceforge.net/bwa.shtml
+
+## RSYNC from abacus to beluga with symlink files using file list
+
+```{r pressure, echo=T,eval=F}
+rsync  -avPL --files-from=list_of_bamfiles .  senthil@beluga.computecanada.ca:/home/senthil/scratch/PhilippeC_Microdeletion_breakpoints_TBC1D24/raw_reads/
+```
